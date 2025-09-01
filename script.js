@@ -29,7 +29,6 @@ document.getElementById("registerBtn").addEventListener("click", async() => {
     }
 });
 
-
 document.getElementById("loadUsersBtn").addEventListener("click", async () => {
     try {
         const res = await fetch(`${BASE_URL}/users`);
